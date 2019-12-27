@@ -3,9 +3,9 @@
     "main": "src/index.js",
     "scripts": {
         "pretest": "eslint ./code",
-        "build": "webpack --config config/webpack.release.js",
-        "start": "webpack-dev-server --config config/webpack.dev.js",
-        "watch": "webpack --watch --progress"
+        "build": "webpack --config webpack.release.js",
+        "start": "webpack-dev-server --config webpack.dev.js",
+        "watch": "webpack --watch --progress --config webpack.dev.js"
     },
     "license": "MIT",
     "devDependencies": {
@@ -16,7 +16,7 @@
         "@babel/preset-react": "^7.7.4",
         "babel-eslint": "^10.0.3",
         "babel-loader": "^8.0.6",
-        "clean-webpack-plugin": "^3.0.0",
+        "clean-webpack-plugin": "^1.0.0",
         "eslint": "^6.8.0",
         "eslint-loader": "^3.0.3",
         "eslint-plugin-jasmine": "^4.1.0",
@@ -36,6 +36,7 @@
         "webpack-notifier": "^1.8.0"
     },
     "dependencies": {
+        "@babel/plugin-proposal-optional-chaining": "^7.7.5",
         "babel-plugin-styled-components": "^1.10.6",
         "classnames": "^2.2.6",
         "core-js": "^3.6.1",
