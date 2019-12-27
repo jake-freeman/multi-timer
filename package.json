@@ -7,8 +7,7 @@
         "start": "webpack-dev-server --config config/webpack.dev.js",
         "watch": "webpack --watch --progress"
     },
-    "license": "UNLICENSED",
-    "private": true,
+    "license": "MIT",
     "devDependencies": {
         "@babel/core": "^7.7.7",
         "@babel/plugin-proposal-class-properties": "^7.7.4",
