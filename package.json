@@ -36,12 +36,14 @@
         "webpack-notifier": "^1.8.0"
     },
     "dependencies": {
+        "babel-plugin-styled-components": "^1.10.6",
         "classnames": "^2.2.6",
         "core-js": "^3.6.1",
         "lodash": "^4.17.15",
         "prop-types": "^15.7.2",
         "react": "^16.12.0",
         "react-compound-timer": "^1.1.15",
-        "react-dom": "^16.12.0"
+        "react-dom": "^16.12.0",
+        "styled-components": "^4.4.1"
     }
 }
